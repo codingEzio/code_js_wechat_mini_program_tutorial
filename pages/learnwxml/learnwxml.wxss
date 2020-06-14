@@ -1,0 +1,4 @@
+/**learnwxml.wxss**/
+#item-0 {
+  font-style: italic;
+}

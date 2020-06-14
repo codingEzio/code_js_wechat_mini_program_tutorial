@@ -1,0 +1,23 @@
+<!--learnwxml.wxml-->
+<view class="container">
+  <view id="item-{{item_id}}">
+    Hello, .wxml
+  </view>
+
+  <view wx:if="{{definitely_true ? true : false}}">
+    True!
+  </view>
+
+  <view wx:if="{{true}}">
+    3*2*1 = {{ abc_num[0] * abc_num[1] * abc_num[2] }}
+  </view>
+
+  <view>
+    MY name is "{{my_name}}"
+  </view>
+
+  <view wx:for="{{abc_num}}">
+    <!-- index & item is the default variable name -->
+    {{index}} {{"wow"}} {{item}}
+  </view>
+</view>
